@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0c474b;
+}
+.nav {
+  &__item {
+    list-style: none;
+    text-align: center;
+  }
+  .link {
+    text-decoration: none;
+  }
+}
+.title-footer {
+  text-align: center;
+}
