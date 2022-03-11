@@ -1,4 +1,16 @@
-.section-3 {
+.section3 {
   font-family: "pippins", sans-serif;
   background-color: var(--background-gray);
+  &__title3 {
+    text-align: center;
+    &--parraf {
+      text-align: center;
+    }
+  }
+}
+.image-section-3 {
+  width: 100vw;
+}
+.button {
+  text-align: center;
 }
