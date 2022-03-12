@@ -1,15 +1,34 @@
 .section-1 {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 41px 47px 0 45px;
+  color: #0c474b;
 }
 .title2 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 24px;
+  color: #0c474b;
+  margin-bottom: 37px;
 }
+
 .list {
   padding-left: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
+  list-style: none;
+}
+.image-mesa {
+  width: 90px;
+  height: 99px;
+  margin-bottom: 47px;
+}
+.title-h3 {
+  font-size: 20px;
 }

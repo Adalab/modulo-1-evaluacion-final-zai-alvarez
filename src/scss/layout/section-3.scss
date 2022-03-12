@@ -1,5 +1,6 @@
 .section3 {
   font-family: "pippins", sans-serif;
+  color: #0c474b;
   background-color: var(--background-gray);
   &__title3 {
     text-align: center;
@@ -7,10 +8,20 @@
       text-align: center;
     }
   }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 .image-section-3 {
   width: 100vw;
 }
-.button {
-  text-align: center;
+.button-now {
+  background-color: #0c474b;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 16px;
+  padding: 12px 24px;
+  border-color: transparent;
+  margin-bottom: 92px;
 }
