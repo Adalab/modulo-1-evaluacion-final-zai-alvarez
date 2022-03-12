@@ -17,13 +17,6 @@
   margin-bottom: 37px;
 }
 
-.list {
-  padding-left: 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  list-style: none;
-}
 .image-mesa {
   width: 90px;
   height: 99px;
@@ -31,4 +24,7 @@
 }
 .title-h3 {
   font-size: 20px;
+}
+.box-1 {
+  background-color: lightblue;
 }
