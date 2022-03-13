@@ -1,38 +1,58 @@
 .footer {
   background-color: #0c474b;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+  // align-items: center;
   color: #b6c8c9;
   font-family: var(--font-family);
-}
-.nav {
-  &__item {
-    list-style: none;
-    padding: 0%;
-    color: #b6c8c9;
+  padding: 56px 0;
+
+  .section-footer {
+    display: flex;
+    /* flex-grow: inherit; */
+    flex-basis: fit-content;
+    flex-direction: column;
+    /* align-self: flex-start; */
+    align-items: flex-start;
+    /* flex-wrap: nowrap; */
+    box-sizing: border-box;
+    padding-left: 146px;
+
+    .title-footer {
+      margin: 0;
+      line-height: 37px;
+    }
+    .nav {
+      display: flex;
+      /* flex-grow: inherit; */
+      flex-basis: fit-content;
+      flex-direction: column;
+      align-self: flex-start;
+      align-items: center;
+      &__item {
+        list-style: none;
+        padding: 0%;
+        color: #b6c8c9;
+
+        ul {
+          width: 208px;
+          text-align: left;
+        }
+      }
+      .link {
+        text-decoration: none;
+        color: #b6c8c9;
+        font-size: 14px;
+      }
+    }
   }
-  .link {
-    text-decoration: none;
-    color: #b6c8c9;
-    font-size: 14px;
-  }
-}
-.section-social {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 84px;
-  color: #b6c8c9;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-left: -65px;
-  margin-top: 35px;
   color: white;
 }
 .mail {
@@ -53,10 +73,33 @@
 }
 .arrow {
   color: white;
-  font-size: 20px;
   display: flex;
   text-decoration: none;
-  margin-left: 350px;
-  padding-bottom: 60px;
-  padding-top: 30px;
+  justify-content: flex-end;
+  padding-right: 24px;
+  padding-top: 16px;
+}
+@media all and (min-width: 768px) {
+  .footer {
+    display: flex;
+    padding: 71px 0 74px 118px;
+    justify-content: space-between;
+    .section-footer {
+      display: flex;
+      flex-direction: row;
+      padding-left: 0;
+    }
+    .arrow {
+      padding: 101px 57px 89px 15px;
+    }
+    .icons {
+      margin-top: 0;
+    }
+  }
+}
+// .section-footer {
+//   padding-left: 47px;
+// }
+
+@media all and (min-width: 1200px) {
 }

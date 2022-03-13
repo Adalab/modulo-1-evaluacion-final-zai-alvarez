@@ -2,11 +2,8 @@
   font-family: "poppins", sans-serif;
   color: #0c474b;
   background-color: var(--background-gray);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 27px;
+  display: grid;
+  grid-template-columns: 100%;
 }
 .title-enjoy {
   font-size: 24px;
@@ -17,7 +14,8 @@
   margin-bottom: 30px;
 }
 .image-section-3 {
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 .button-now {
   background-color: #0c474b;
@@ -29,4 +27,9 @@
   margin-bottom: 92px;
 
   width: 176px;
+}
+@media all and (min-width: 1200px) {
+  .section3 {
+    grid-template-columns: 50% 50%;
+  }
 }
