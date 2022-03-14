@@ -19,7 +19,6 @@
     }
     .nav {
       display: flex;
-      /* flex-grow: inherit; */
       flex-basis: fit-content;
       flex-direction: column;
       align-self: flex-start;
@@ -116,9 +115,18 @@
     }
   }
 }
-// .section-footer {
-//   padding-left: 47px;
-// }
 
 @media all and (min-width: 1200px) {
+  .link {
+    display: inline-block;
+  }
+  .link:hover {
+    transform: scale(2);
+  }
+  .parraf-line {
+    margin-left: -60px;
+  }
+  .button-now {
+    margin-left: -130px;
+  }
 }

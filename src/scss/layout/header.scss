@@ -70,9 +70,9 @@
   .hero {
     background-position: center;
   }
-  /*.button {
+  .button {
     margin-left: -35px;
-  }*/
+  }
 }
 @media all and (min-width: 1200px) {
   .container-menu {
@@ -81,25 +81,24 @@
     justify-content: flex-end;
     margin-right: 200px;
     position: fixed;
-
     padding-right: 10px;
     margin: 0px 0px 0px 280px;
     font-size: 16px;
     color: #0c474b;
     padding-top: 76px;
   }
+
   .image-logo {
     margin-right: -400px;
-    margin-top: -60px;
   }
 
   .title-h1 {
     font-size: 36px;
   }
 
-  /*.button {
+  .button {
     margin-left: -135px;
-  }*/
+  }
 
   .link-color {
     list-style: none;
@@ -107,6 +106,12 @@
     color: #0c474b;
     text-decoration: none;
     font-family: var(--font-family);
+    display: inline-block;
+  }
+  .link-color:hover {
+    background-color: rgb(236, 206, 206);
+    color: rgb(245, 60, 60);
+    transform: scale(2);
   }
   .menu-burguer {
     display: none;
