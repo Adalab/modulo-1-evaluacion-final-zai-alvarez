@@ -28,8 +28,7 @@
   background-color: aquamarine;
   color: black;
 }
-nav {
-}
+
 .menu-burguer {
   display: flex;
   justify-content: flex-start;
@@ -71,6 +70,9 @@ nav {
   .hero {
     background-position: center;
   }
+  /*.button {
+    margin-left: -35px;
+  }*/
 }
 @media all and (min-width: 1200px) {
   .container-menu {
@@ -94,6 +96,9 @@ nav {
   .title-h1 {
     font-size: 36px;
   }
+  /*.button {
+    margin-left: -135px;
+  }*/
 
   .link-color {
     list-style: none;

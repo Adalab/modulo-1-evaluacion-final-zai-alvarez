@@ -11,10 +11,14 @@
   text-align: center;
   font-size: 24px;
   color: #0c474b;
-  padding: 0 47px 37px 45px;
+  /*xpadding: 0 47px 37px 45px;*/
 }
 .title2:first-letter {
   text-transform: uppercase;
+}
+.title-section2 {
+  font-size: 24px;
+  font-size: 24px;
 }
 .openspaces {
   text-transform: uppercase;
@@ -59,8 +63,11 @@
   text-transform: uppercase;
 }
 .box {
-  padding: 0 103px 0 103px;
+  /* padding: 0 103px 0 103px;*/
+
   width: 208px;
+  text-align: center;
+  padding-left: 80px;
 }
 
 .right-margin,
@@ -70,11 +77,15 @@
 @media all and (min-width: 768px) {
   .grid-container {
     display: grid;
-    grid-template-columns: 91px auto auto auto 101px;
+    /*grid-template-columns: 91px auto auto auto 101px;*/
+    grid-template-columns: 50px auto auto auto 50px;
   }
   .right-margin,
   .left-margin {
     display: block;
+  }
+  .title-section2 {
+    font-size: 24px;
   }
   .box {
     padding: 0;
