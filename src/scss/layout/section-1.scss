@@ -31,8 +31,6 @@
 .image-mesa {
   width: 90px;
   height: 99px;
-  /* padding: 0 47px 37px 45px; */
-  /* padding-top: 44.5px; */
   padding-bottom: 47px;
   padding-top: 37px;
   line-height: 23px;
@@ -56,7 +54,7 @@
   font-weight: 600;
   margin: 0;
 }
-//Pseudo selector
+
 .title-h3:first-letter {
   text-transform: uppercase;
 }
@@ -73,7 +71,6 @@
   .grid-container {
     display: grid;
     grid-template-columns: 91px auto auto auto 101px;
-    // grid-template-columns: 91px auto auto auto 101px;
   }
   .right-margin,
   .left-margin {
